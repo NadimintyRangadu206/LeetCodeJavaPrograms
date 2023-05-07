@@ -27,6 +27,7 @@ public class Palindrome {
 	public static void main(String[] args) {
 
 		Palindrome p = new Palindrome();
+		
 		int x = 121;
 
 		System.out.println(p.isPalindrome(x));
