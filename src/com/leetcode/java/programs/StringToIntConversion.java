@@ -1,8 +1,5 @@
 package com.leetcode.java.programs;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-
 public class StringToIntConversion {
 
 	public int myAtoi(String s) {
@@ -15,8 +12,6 @@ public class StringToIntConversion {
 				sb.append(s.charAt(i));
 			}
 		}
-
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 //        int no= Integer.valueOf(sb.toString());
 
