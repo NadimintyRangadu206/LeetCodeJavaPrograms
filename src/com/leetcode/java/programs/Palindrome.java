@@ -9,7 +9,7 @@ public class Palindrome {
 		int r = 0;
 		int temp = x;
 
-		while (x > 0) {
+		while (x > 0) { // Condition for negative Values are palindrome  using (X<0)
 			r = x % 10;
 			reverse = (reverse * 10) + r;
 			x = x / 10;
