@@ -1,4 +1,4 @@
-package com.leetcode.java.programs;
+package com.leetcode.java.programs.hard;
 
 public class StringToIntConversion {
 
