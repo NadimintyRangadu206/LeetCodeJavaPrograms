@@ -1,4 +1,4 @@
-package com.leetcode.java.programs;
+package com.leetcode.java.programs.hard;
 
 import java.util.StringTokenizer;
 import java.util.regex.Matcher;
