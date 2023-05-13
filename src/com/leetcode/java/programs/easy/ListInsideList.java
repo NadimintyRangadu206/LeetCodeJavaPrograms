@@ -44,6 +44,24 @@ public class ListInsideList {
 			System.out.println();
 		}
 
+		
+		for(int i=0;i<=5;i++) {     // Reverse Triangle
+			
+			for(int k=0;k<=i;k++) {
+				System.out.print(" ");
+			}
+			
+			for(int j=4;j>=i;j--) {
+				
+				if(i==j|| j==4) {
+					System.out.print("1"+" ");
+				}
+				else {
+					System.out.print(j+" ");
+				}
+			}
+			System.out.println();
+		}
 
 
 		System.out.print(merge);
