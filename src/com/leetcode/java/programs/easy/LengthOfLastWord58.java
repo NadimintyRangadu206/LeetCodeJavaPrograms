@@ -15,26 +15,20 @@ package com.leetcode.java.programs.easy;
  * 
  *         Example 1:
  * 
- *         Input: s = "Hello World" 
- *         Output: 5
- *         
- *          Explanation: The last word is
- *         "World" with length 5. 
- *         
- *         
+ *         Input: s = "Hello World" Output: 5
+ * 
+ *         Explanation: The last word is "World" with length 5.
+ * 
+ * 
  *         Example 2:
  * 
- *         Input: s = " fly me to the moon "
- *          Output: 4
- *           
- *         Explanation: The last
- *         word is "moon" with length 4.
- *         
- *          Example 3:
+ *         Input: s = " fly me to the moon " Output: 4
  * 
- *         Input: s = "luffy is still joyboy" 
- *         Output: 6 
- *         Explanation: The last
+ *         Explanation: The last word is "moon" with length 4.
+ * 
+ *         Example 3:
+ * 
+ *         Input: s = "luffy is still joyboy" Output: 6 Explanation: The last
  *         word is "joyboy" with length 6.
  *
  */
@@ -48,7 +42,7 @@ public class LengthOfLastWord58 {
 		int length = arr.length;
 
 		String s1 = new String();
-		
+
 		for (int i = 0; i < arr.length; i++) {
 
 			if (i == (length - 1)) {
@@ -56,16 +50,29 @@ public class LengthOfLastWord58 {
 			}
 		}
 
+		/**
+		 * 
+		 * String s2 = new String(); 
+		 * for (int i = arr.length - 1; i >= 0; i--) {
+		 * 
+		 * if (i == (arr.length - 1))
+		 *  { s2 = arr[i]; } 
+		 *  }
+		 * 
+		 * int count1 = s2.length();
+		 */
+		
 		int count = s1.length();
 
 		return count;
+		
 	}
 
 	public static void main(String[] args) {
 
 		LengthOfLastWord58 lolw = new LengthOfLastWord58();
 
-		String s = "Hello World";
+		String s = "luffy is still joyboy";
 
 		System.out.println(lolw.lengthOfLastWord(s));
 
